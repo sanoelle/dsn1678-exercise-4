@@ -7,8 +7,6 @@ var $shuttle = $('.shuttle');
 var $shuttleSection = $('.shuttle-section');
 var $ship1 = $('.ship-1');
 var $ship2 = $('.ship-2');
-var $ship3 = $('.ship-3');
-var $ship4 = $('.ship-4');
 var $shipSection = $ ('.ship-section');
 
 $win.on('scroll', function () {
