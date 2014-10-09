@@ -46,6 +46,10 @@ section {
 .shuttle{
 	width: 300px;
 	opacity: 0;
+	
+	position: relative;
+	transition: 500ms linear;
+	top: 5em;
 }
 
 .shuttle-section{
@@ -60,11 +64,14 @@ section {
 @-webkit-keyframes shuttle-fade {
 	0%{
 		opacity: 0;
+		top: 5em;
 	} 
 	100%{
 		opacity: 1;
+		top: 0;
 	}
 }
+
 
 
 
