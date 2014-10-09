@@ -44,8 +44,28 @@ section {
 }
 
 .shuttle{
-	background-color: #ffa537;
+	width: 300px;
+	opacity: 0;
 }
+
+.shuttle-section{
+	background-color: #ffa537;
+	background-size: cover;
+}
+
+.js-shuttle-fade {
+	-webkit-animation: shuttle-fade 1s linear forwards;	
+}
+
+@-webkit-keyframes shuttle-fade {
+	0%{
+		opacity: 0;
+	} 
+	100%{
+		opacity: 1;
+	}
+}
+
 
 
 
